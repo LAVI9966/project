@@ -239,3 +239,9 @@ a:hover{
     margin-top: 20px;
     margin-bottom: 20px;
 }
+@media screen and (max-width:600px){
+    h1{
+        font-size:36px;
+        line-height:50px;
+    }
+}
