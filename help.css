@@ -1,0 +1,21 @@
+.divs{
+    position: relative;
+    background-color: blue;
+    left: 700px;
+    width: 500px;
+    height: 50px;
+}
+.bt2{
+    position: absolute;
+    left: 20px;
+}
+.bt3{
+    position: relative;
+    left: 300px;
+}
+.bt4{
+
+}
+.bt5{
+
+}
