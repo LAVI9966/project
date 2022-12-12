@@ -8,6 +8,168 @@ body{
     font-family: sans-serif;
     background-color: #f1f9f8;
 }
+.head-name{
+    
+    color:red;
+    position: fixed;
+    width: 100%;
+    left: 1.5em;
+    text-align:left;
+    font-family: sans-serif;
+}
+.p{
+    position:fixed;
+    width: 100%;
+    height: 10px;
+    background-color:black;
+}
+.second-contailer{
+    background-color:black;
+    width:100%;
+    height: 600px;
+    
+}
+.btna{
+    position: relative;
+
+    color:red;
+    margin: 10px 20px 20px 20px;
+}
+.btnaaa{
+    text-align: right;
+}
+.text{
+    
+    color: white;
+    width: 95%;
+    
+    font-size:562.5% ;
+    position: relative;
+    text-align:left;
+    top: 200px;
+    left: 100px;
+}
+
+.chch{
+    position: relative;
+    text-align: left;
+    width: 80%;
+    bottom: 60px;
+    left: 220px;
+}
+.lololol{
+    position: relative;
+    text-align: left;
+    width: 80%; 
+    color: red;
+    font-size: 20px;
+    bottom: 65px;
+    display: block;
+    left: 500px;
+    position: relative;
+    text-align: left;
+    width: 80%;
+    bottom: 60px;
+    left: 380px;
+    
+}
+.jay{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.imags{
+    border: solid;
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+}
+.pera{
+    width: 55%;
+    margin: auto;
+}
+.skill-row{
+    margin: 50px;
+}
+.cpp{
+    width: 200px;
+    height: 200px;
+
+}
+.htmlcss{
+    align-items: center;
+    width: 350px;
+    height: 250px;
+
+}
+.hardware{
+    width: 300px;
+    height: 300px;
+}
+.formss{
+    width: 25%;
+    text-align: left;
+    margin: 5px auto;
+    padding: 5px;
+    border-color: black;
+    line-height: 2;
+}
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #119999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #119999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #119999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #119999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #119999e);
+    -webkit-border-radius: 8;
+    height: 20px;
+    -moz-border-radius: 8;
+    border-radius: 4px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4a);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4a);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4a);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4a);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4a);
+    text-decoration: none;
+}
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.social{
+    position: fixed;
+    height: 160px;
+    width: 100%;
+    align-items: left;
+    bottom: 0;
+
+
+}
+.bottom-container{
+    background-color:black;
+    padding: 30px 0 15px;
+    align-content: center;
+    height: 100px;
+    padding-top: 50px;
+}
+.footer-link{
+    color: white;
+    margin: 10px 20px;
+}
+.copy{
+    color: white;
+    font-size: .75rem;
+    padding: 20px 0px;
+}
+/////////////////
 h1{
     margin-top: 0px;
 }
@@ -16,73 +178,18 @@ h1{
     position: relative;
     width: 40px;
     height: 40px;
+    display: block;
 }
-.htmlcss{
-    align-items: center;
-    width: 350px;
-    height: 250px;
 
-}
-.cpp{
-    width: 200px;
-    height: 200px;
-
-}
-.hardware{
-    width: 300px;
-    height: 300px;
-}
-.social{
-    position: fixed;
-    left: 1205px;
-    top: 200px;
-
-}
 .solaar{
     position: relative;
     height: 600px;
     width: 600px;
     right: 350px;
 }
-.skill-row{
-    margin: 50px;
-}
-.text{
-    
-    color: white;
-    font-size:562.5% ;
-    position: relative;
-    text-align:left;
-    top: 200px;
-    left: 100px;
-}
-.head-name{
-    color:red;
-    position: fixed;
-    right: 1150px;
-}
-.second-contailer{
-    background-color:black;
-    width:100%;
-    height: 600px;
-    
-}
-.p{
-    position:fixed;
-    width: 100%;
-    height: 10px;
-    background-color:black;
-}
-.chch{
-    position: relative;
-    text-align: left;
-    bottom: 60px;
-    left: 220px;
-}
-.bottom-container{
-    background-color:black;
-    padding: 30px 0 15px;
-}
+
+
+
 #bt1{
     
     background-color: transparent;
@@ -151,97 +258,36 @@ h1{
     height: 50px;
 
 }
-.formss{
-    width: 25%;
-    text-align: left;
-    margin: 5px auto;
-    padding: 5px;
-    border-color: black;
-    line-height: 2;
-}
-.pera{
-    width: 30%;
-    margin: auto;
-}
+
+
 p{
     width: 80%;
     margin: 30px auto 30px;
     line-height: 2 ;
 }
-.contact-me{
-    width: 40%;
-    margin: 40px auto 60px;
-}
-.btn {
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #119999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #119999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #119999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #119999e);
-    background-image: linear-gradient(to bottom, #11cdd4, #119999e);
-    -webkit-border-radius: 8;
-    height: 20px;
-    -moz-border-radius: 8;
-    border-radius: 4px;
-    font-family: Arial;
-    color: #ffffff;
-    font-size: 20px;
-    padding: 5px 20px 5px 20px;
-    text-decoration: none;
-  }
-  
-  .btn:hover {
-    background: #30e3cb;
-    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4a);
-    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4a);
-    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4a);
-    background-image: -o-linear-gradient(top, #30e3cb, #2bc4a);
-    background-image: linear-gradient(to bottom, #30e3cb, #2bc4a);
-    text-decoration: none;
-}
-.copy{
-    color: white;
-}
-.btna{
-    position: relative;
-    top: 40px;
-    left:330px;
-    color:red;
-    margin: 10px 20px;
-}
+
+
+
 .a:hover{
     color: aqua;
 }
 a{
     text-decoration: none;
 }
-.footer-link{
-    color: white;
-    margin: 10px 20px;
-}
+
 a:hover{
     color:blue;
 }
-.lololol{
-    color: red;
-    font-size: 20px;
-    position: relative;
-    right: 245px;
-    bottom: 65px;
+
+
+
+h1{
+     margin-top: 0;
+  font-family: 'Dancing Script';
+  
+
 }
-.imags{
-    border-radius: 50%;
-    position: relative;
-    width: 200px;
-    height: 200px;
-}
-.jay{
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-@media screen and (max-width:600px){
-    h1{
-        font-size:36px;
-        line-height:50px;
-    }
+h3{
+    font-family: 'Dancing Script';
+  
 }
