@@ -5,23 +5,34 @@
     <script>
         function fun() {
             var name = document.forms.RegForm.Name.value
+            var mname = document.forms.RegForm.MName.value
+            var lname = document.forms.RegForm.LName.value
             var email = document.forms.RegForm.EMail.value
             var phone = document.forms.RegForm.MobileNumber.value
-            var regEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g //Javascript reGex for Email Validation.
-            var regPhone = /^\d{10}$/ // Javascript reGex for Phone Number validation.
-
-
-            if (email == '' || !regEmail.test(email)) {
+            var regEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g; //Javascript reGex for Email Validation.
+            var regPhone = /^\d{10}$/; // Javascript reGex for Phone Number validation.
+           let regName= /\d+$/g;
+          if (name == '' || regName.test(name)) {
+                alert('Please enter valid first name.')
+               
+            } else
+            if (regName.test(mname)) {
+                alert('Please enter valid middle name.')
+               
+            }else
+            if (lname == '' || regName.test(lname)) {
+                alert('Please enter valid last name.')
+             
+            }
+           else if (email == '' || !regEmail.test(email)) {
                 window.alert('Please enter a valid e-mail address.')
-                email.focus()
-                return false
+    
             }
 
 
-            if (phone == '' || !regPhone.test(phone)) {
+           else  if (phone == '' || !sregPhone.test(phone)) {
                 alert('Please enter valid phone number.')
-                phone.focus()
-                return false
+                
             }
 
             return true
@@ -70,7 +81,7 @@
                     <label for="fname">Middle Name:</label>
                 </td>
                 <td>
-                    <input type="text" name="Name" id="fname" />
+                    <input type="text" name="MName" id="fname" />
                 </td>
 
             </tr>
@@ -79,19 +90,11 @@
                     <label for="fname">Last Name:</label>
                 </td>
                 <td>
-                    <input type="text"  name="Name" id="fname" />
+                    <input type="text"  name="LName" id="fname" />
                 </td>
 
             </tr>
-            <tr>
-                <td>
-                    <label for="dob">Date Of Birth:</label>
-                </td>
-                <td>
-                    <input type="date" name="Date" id="dob">
-                </td>
-
-            </tr>
+            
             <tr>
                 <td>
                     <label for="email">E-mail:</label>
@@ -115,23 +118,6 @@
                 </td>
                 <td>
                     <textarea   name="Address" id="add"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <label for="add">City:</label>
-                </td>
-                <td>
-                    <input type="text"  name="Address" id="add" />
-                </td>
-
-            </tr>
-            <tr>
-                <td>
-                    <label for="add">State:</label>
-                </td>
-                <td>
-                    <input type="text"  name="Address" id="add" />
                 </td>
             </tr>
             <tr>
